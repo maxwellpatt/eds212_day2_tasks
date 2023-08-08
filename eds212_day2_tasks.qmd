@@ -22,3 +22,12 @@ dP_da
 a <- 1.2
 eval(dP_da)
 ```
+
+```{r}
+ggplot() +
+  geom_point(data = penguins, aes(x = bill_length_mm, y = bill_depth_mm, color = species))
+```
+
+```{r}
+ggplot() + geom_jitter(data = penguins, aes(x = species, y = flipper_length_mm)) + labs(x = "Species", y = "Flipper length (mm)", title = "Species Flipper Length")
+```
