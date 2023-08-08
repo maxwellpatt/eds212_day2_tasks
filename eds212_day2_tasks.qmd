@@ -1,0 +1,12 @@
+---
+title: "EDS212 Day 2 Tasks"
+---
+
+```{r}
+library(tidyverse)
+library(palmerpenguins)
+```
+
+```{r}
+
+```
