@@ -29,5 +29,5 @@ ggplot() +
 ```
 
 ```{r}
-ggplot() + geom_jitter(data = penguins, aes(x = species, y = flipper_length_mm)) + labs(x = "Species", y = "Flipper length (mm)", title = "Species Flipper Length")
+ggplot() + geom_jitter(data = penguins, aes(x = species, y = flipper_length_mm), color = "pink") + labs(x = "Species", y = "Flipper length (mm)", title = "Species Flipper Length") + theme_minimal()
 ```
