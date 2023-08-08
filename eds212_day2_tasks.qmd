@@ -8,5 +8,17 @@ library(palmerpenguins)
 ```
 
 ```{r}
+fx = expression(x ^ 2)
+df_dx = D(fx, 'x')
+df_dx
+x <- 3
+eval(df_dx)
+```
 
+```{r}
+Pa = expression(2 * (3*a + 2)^4 - 5)
+dP_da = D(Pa, 'a')
+dP_da
+a <- 1.2
+eval(dP_da)
 ```
